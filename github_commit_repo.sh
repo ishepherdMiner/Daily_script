@@ -20,6 +20,7 @@ do
     echo "提交新的Commit:"${file##*/}_${DATE}
     git add .
     git commit -m ${file##*/}_${DATE}
+    git push
   else
     echo "没有更改:"${file##*/}
   fi
