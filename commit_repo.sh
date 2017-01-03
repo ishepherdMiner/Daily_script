@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DATE=$(date +%s)
-CheckList=('Daily_knowledge_set','Daily_sh_set','Daily_ui_objc_set','Daily_ui_set')
+CheckList=('Daily_knowledge_set','Daily_sh_set','Daily_ui_objc_set','Daily_ui_set','Daily_modules')
 TARGET=~/Developer/01-Engineer/Github/Me
 # echo ${DATE}
 cd ${TARGET}
@@ -9,7 +9,7 @@ for file in ${TARGET}/*
 do
   cd ${file}
   echo ${file##*/}
-  git remote -v | grep push | awk '{print $2}' | git push
+  git remote -v | grep fetch | awk '{print $2}' | git pull
 done
 
 for file in ${TARGET}/*
