@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DATE=$(date +%s)
-CheckList=('Daily_knowledge_set','Daily_sh_set','Daily_ui_objc_set','Daily_ui_set','Daily_modules')
+CheckList=('Daily_knowledge_set','Daily_sh_set','Daily_ui_objc_set','Daily_ui_set','Daily_modules','Daily_leetcode_set')
 TARGET=~/Developer/01-Engineer/Github/Me
 # echo ${DATE}
 cd ${TARGET}
