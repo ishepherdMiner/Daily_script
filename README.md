@@ -10,5 +10,6 @@
 |[Hexo提交出现Permission-denied-publickey](https://ishepherdminer.github.io/2016/11/24/Hexo提交出现Permission-denied-publickey/#more)|blog_ssh-add.sh|
 |遍历提交*github reop*|commit_repo.sh|
 |遍历更新*github repo*|update_repo.sh|
+|打开*Xcode*工程|open_xc_prj.sh|
 
 
