@@ -15,3 +15,8 @@ cd ./${dir}/Payload/*.app/
 plutil -convert xml1 Info.plist
 
 cat Info.plist | less
+
+# 删除中间文件
+# cd ../../../
+
+# rm -rf ./${dir}
