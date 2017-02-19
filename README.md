@@ -11,5 +11,6 @@
 |遍历提交*github reop*|commit_repo.sh|
 |遍历更新*github repo*|update_repo.sh|
 |打开*Xcode*工程|open_xc_prj.sh|
+|[喜马拉雅音频文件导出](http://www.iosugar.com/2017/02/18/喜马拉雅音频文件导出/)|xmla_music_export.sh|
 
 
