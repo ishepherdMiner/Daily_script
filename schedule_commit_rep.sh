@@ -1,11 +1,13 @@
 #!/bin/bash
 
+export PATH=脚本存放路径:$PATH
+
 repo_path="你的本地仓库地址"
 blog_path="你的本地博客地址"
 
 # 提交本地仓库
 cd ${repo_path}
-./commit_repo.sh
+commit_repo.sh
 
 # 提交blog
 cd ${blog_path}
