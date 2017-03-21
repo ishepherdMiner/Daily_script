@@ -1,10 +1,19 @@
 #!/bin/sh
 
+IFS=$'\n'
+
 timestamp=$(date +%s)
 
-dir=`basename ${1} .ipa`_${timestamp} 
+var=${1}
 
-mkdir ./${dir}
+dir=${var##*/}_${timestamp}
+
+echo ${1}
+echo ${dir}
+
+cd 
+
+mkdir ${dir}
 
 cp ${1} ./${dir}/${dir}.zip
 
