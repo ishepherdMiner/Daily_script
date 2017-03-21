@@ -6,26 +6,21 @@ timestamp=$(date +%s)
 
 var=${1}
 
-dir=${var##*/}_${timestamp}
+AppDir=${var##*/}_${timestamp}
 
-echo ${1}
-echo ${dir}
+mkdir ${AppDir}
 
-cd 
+cp ${1} ./${AppDir}/${AppDir}.zip
 
-mkdir ${dir}
+unzip -d ./${AppDir}/ ./${AppDir}/${AppDir}.zip > /dev/null 2>&1
 
-cp ${1} ./${dir}/${dir}.zip
-
-unzip -d ./${dir}/ ./${dir}/${dir}.zip > /dev/null 2>&1
-
-cd ./${dir}/Payload/*.app/ 
+cd ./${AppDir}/Payload/*.app/
 
 plutil -convert xml1 Info.plist
 
 cat Info.plist | less
 
-# 删除中间文件
-# cd ../../../
+# 退出后plist删除中间文件
+cd ../../../
 
-# rm -rf ./${dir}
+rm -rf ./${AppDir}
