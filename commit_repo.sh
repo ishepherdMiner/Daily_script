@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DATE=$(date +%s)
-CheckList=('Daily_knowledge_set','Daily_sh_set','Daily_ui_objc_set','Daily_ui_set','Daily_modules','Daily_leetcode_set')
+CheckList=('Daily_knowledge_set','Daily_sh_set','Daily_ui_objc_set','Daily_ui_set','Daily_modules','Daily_leetcode_set','JARandom')
 TARGET="本地仓库目录"
 # echo ${DATE}
 cd ${TARGET}
