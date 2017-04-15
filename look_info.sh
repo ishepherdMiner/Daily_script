@@ -1,11 +1,10 @@
 #!/bin/sh
 
 # 已解决:
-#   Q: 文件名中包含空格
+#   Q: .ipa文件名中包含空格
 #   A: 修改IFS,因为每次都是一个新的shell环境,不会影响原来的环境。
-
-# 待解决:
 #   Q: unzip 解压时,如果带.ipa文件中.app包含中文的话会乱码,变成两个.app文件,无法成功# cd到对应的目录
+#   A: 把.ipa转成.tar,解包.tar文件,不会出现该问题
 
 if [ ${#} -lt 1 ]; then
     echo "Usage:look_info.sh path/to/xxx.ipa"
