@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TARGET=~/Developer/01-Engineer/Github/Others
+TARGET=~/Developer/Github/Else
 cd ${TARGET}
 for file in ${TARGET}/*
 do

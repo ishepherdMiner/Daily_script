@@ -18,7 +18,7 @@ do
                 elif echo ${file##*.} | grep -w "xcodeproj" &>/dev/null; then
                         prj=${file}
 		else
-			/Users/Jason/Developer/01-Engineer/Github/Me/Daily_sh_set/open_xc_prj.sh ${file} 
+			/Users/Jason/Developer/Github/Me/Daily_sh_set/open_xc_prj.sh ${file} 
                 fi
         fi
 done

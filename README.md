@@ -12,5 +12,6 @@
 |遍历更新*github repo*|update_repo.sh|
 |打开*Xcode*工程|open_xc_prj.sh|
 |[喜马拉雅音频文件导出](http://www.iosugar.com/2017/02/18/Himalayan-audio-file-export/)|xmla_music_export.sh|
+|查看二进制是否被加壳|look_app_encrypt.sh|
 
 
