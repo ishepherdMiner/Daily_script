@@ -13,6 +13,8 @@ scale_config=(
         "Icon-Small.png" 29
         "Icon-Small@2x.png" 58
         "Icon-Small@3x.png" 87
+        "Icon-10@2x.png" 40
+        "Icon-10@3x.png" 60
      )
 
 num=${#scale_config[@]}
