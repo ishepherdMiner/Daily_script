@@ -7,6 +7,7 @@
 |:--|:-:|
 |[查看.ipa文件的Info.plist](http://www.iosugar.com/2016/11/30/View-the-Info.plist-of-the-.ipa-file/) | look_info.sh |
 |[快速生成iOS应用的图标](http://www.iosugar.com/2016/12/08/Quickly-generate-icons-for-iOS-apps/)|generate_app_icon.sh|
+|生成iOS应用启动图|generate_app_launch.sh|
 |[Hexo提交出现Permission-denied-publickey](http://www.iosugar.com/2016/11/24/Hexo-commit-exists-Permission-denied-publickey/)|blog_ssh-add.sh|
 |遍历提交*github reop*|commit_repo.sh|
 |遍历更新*github repo*|update_repo.sh|
