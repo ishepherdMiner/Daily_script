@@ -15,6 +15,11 @@ sed -i "" "s/，/_/g" ./mapper
 sed -i "" "s/－/_/g" ./mapper
 sed -i "" "s/？/_/g" ./mapper
 sed -i "" "s/、/_/g" ./mapper
+sed -i "" "s/（/_/g" ./mapper
+sed -i "" "s/）/_/g" ./mapper
+sed -i "" "s/！/_/g" ./mapper
+sed -i "" "s/《/_/g" ./mapper
+sed -i "" "s/》/_/g" ./mapper
 
 ## foreach the download directory to find the music name
 for f in ./download/*
