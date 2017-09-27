@@ -7,7 +7,10 @@ scale_config=(
         "Icon-60@2x.png" 120
         "Icon-60@3x.png" 180
         "Icon-72.png" 72
-        "Icon-72@2x.png" 144        
+        "Icon-72@2x.png" 144
+        "Icon-29.png"    29
+        "Icon-29@2x.png" 58
+        "Icon-83.5@2x.png" 167
         "Icon-76.png" 76
         "Icon-76@2x.png" 152
         "Icon-76@3x.png" 228
